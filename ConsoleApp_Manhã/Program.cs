@@ -6,7 +6,7 @@ Console.WriteLine("Hello, World!");
 Produto p1 = new Produto(1, "Mouse sem fio", 56.90M);
 Console.WriteLine(p1.getDescricao() + " " + p1.getValor());
 
-p1.setValor(69.90M);                // com o set da para editar valor, para setar o valor, ele cria um novo
+p1.setValor(69.90M);                //para setar o valor, ele cria um novo
 p1.setDescricao("Mouse Gamer Razor");
 Console.WriteLine(p1.getDescricao() + " " + p1.getValor());
 
