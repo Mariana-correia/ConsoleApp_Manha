@@ -18,5 +18,20 @@ namespace ConsoleApp_Manhã
             Descricao = descricao;
             Valor = valor;
         }   
+
+        public int getId()
+        {
+            return Id;
+        }
+
+        public string getDescricao()
+        {
+            return Descricao;
+        }
+
+        public decimal getValor()
+        {
+            return Valor;
+        }
     }
 }
