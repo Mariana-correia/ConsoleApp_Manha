@@ -7,4 +7,4 @@ Console.WriteLine("Hello, World!");
 //Console.WriteLine(p1.getDescricao() + " " + p1.getValor());
 
 Pessoa p1 = new Pessoa(1, "Mariana Alvez Correia", "997780181");
-Console.WriteLine("Nome: " + p1.getNome() +" " + "Telefone: " + p1.getTelefone());
+Console.WriteLine("Nome: " + p1.getNome() + " Telefone: " + p1.getTelefone());
