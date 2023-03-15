@@ -60,5 +60,5 @@ listaCliente.Add(c4);
 
 foreach (Cliente item in listaCliente)
 {
-    Console.WriteLine(item.getNome()) ;
+    Console.WriteLine(item.getNome());
 }
